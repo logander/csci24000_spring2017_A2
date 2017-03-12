@@ -1,0 +1,25 @@
+Goal: To generate a simulated obstacle course that the player and the champion race in.
+	Moving forward and backward different ammounts of distance across the console based on the chance 
+	of failing or completing said obstacle that is chosen for them.
+	
+Input: There is no input required by the user for this program.
+
+Output: The output will show in detail a race of A and B.
+
+		A being the "Player" and B being the "Champion" the players better at racing friend.
+
+		This will lead to showing the progress of A and B repeatedly until one of them reaches the "finish line" of value 50.
+		
+Requirements: We will need advanceRacerA which will be selecting and changing RacerA, advanceRacerB which will do the same for RacerB.
+
+			  We will also need printPosition which will print the positions with each obstacle as the main function loops until one hits 50.
+		
+Details: When the program is run it will first select an obstacle randomly.
+
+		 It will then in the loop make its way to the obstacle which will then change RacerA or RacerB's "distance"
+		 in the race. Either adding or subtracting from its current position.
+		 
+		 Printing out the locations of A and B after each one goes through an obstacle. 
+		 
+		 This repeats while they are both < 50. Stopping when one of the two reach 50 which is the "finish line".
+		
